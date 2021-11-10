@@ -1,0 +1,40 @@
+#scanSuccess{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+#successImg{
+  width: 280rpx;
+  height: 280rpx;
+  margin-top: 100rpx;
+  border-radius: 10rpx;
+}
+#success_text{
+  margin-top: 50rpx;
+  font-size: 50rpx;
+  font-weight: 350;
+}
+#orderDetail{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  height: 50rpx;
+  width: 30%;
+  align-items:center;
+  justify-content: space-between;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  margin-top: 10rpx;
+}
+#order_name{
+  margin-top: 100rpx;
+  font-size: 60rpx;
+  font-weight: 330;
+}
+.order_cost{
+  margin-top: 60rpx;
+  font-size: 38rpx;
+  font-weight: 300;
+}

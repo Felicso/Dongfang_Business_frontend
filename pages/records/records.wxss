@@ -1,0 +1,60 @@
+#records{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  border: 0.1rpx solid ;
+}
+#goodTotal{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+}
+#good_img{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  border-radius: 10rpx;
+}
+#goodDetail{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: flex-start;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+}
+#goodCost{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  width: 90%;
+  align-items:flex-start;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+#good_name{
+  font-size: 35rpx;
+  font-weight: 400;
+}
+.good_detail_t{
+  font-size: 33rpx;
+  font-weight: 300;
+}
+#getMore{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  padding-left: 65%;
+  padding-right: 5%;
+}
+#get_more_t{
+  font-size: 30rpx;
+  font-weight: 250;
+}

@@ -1,0 +1,5 @@
+<view id="scanFail">
+  <image src="/images/scan_fail.png" id="failImg"></image>
+  <text id="fail_text">兑换失败!</text>
+  <text id="fail_reason">{{msg}}</text>
+</view>

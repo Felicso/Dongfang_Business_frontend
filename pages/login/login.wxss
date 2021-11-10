@@ -1,0 +1,136 @@
+#login{
+  width:100%;
+  height:1300rpx;
+  background-color:white;
+}
+#title{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  margin-top: 100rpx;
+  font-size:28px;
+  font-weight:500;
+  top: 37rpx;
+}
+#t1{
+  position: relative; 
+  left: 0rpx; 
+  top: 194rpx;
+}
+#t2{
+  position: relative; 
+  left: 0rpx; 
+  top: 248rpx;
+}
+#t3{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:90rpx;
+}
+#t4{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:100rpx;
+}
+#t1 text{
+  position: relative;
+  left:40rpx;
+  top:40rpx;
+  color: rgb(143, 143, 143);
+}
+#user{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t2 text{
+  position: relative;
+  left:40rpx;
+  top:40rpx;
+  color: rgb(143, 143, 143);
+}
+#pass1{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t3 text{
+  position: relative;
+  left:40rpx;
+  top:40rpx;
+  color: rgb(143, 143, 143);
+}
+#pass2{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 320rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t4 text{
+  position: relative;
+  left:40rpx;
+  top:40rpx;
+  color: rgb(143, 143, 143);
+}
+#pass3{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 320rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#btn1{
+  position: relative;
+  top:350rpx;
+  width: 300rpx; 
+  height: 120rpx; 
+  display: block; 
+  box-sizing: border-box;
+  padding: 0;
+  background-color: inherit;
+  border: 0.1rpx solid ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#btn1 text{
+  color:black;
+  font-size: 39rpx;
+  font-weight: 500;
+  position: relative; 
+}
+#btn2{
+  position: relative; 
+  left: -240rpx; 
+  top: 456rpx;
+  background-color: inherit;
+  justify-content: center;
+}
+#btn2::after{
+  border: none;
+}
+.bt_t{
+  color:black;
+  font-size: 39rpx;
+  font-weight: 500;
+}
+#btn3{
+  position: relative; 
+  left: 216rpx; 
+  top: 371rpx;
+  background-color: inherit;
+  justify-content: center;
+}
+#btn3::after{
+  border: none;
+}

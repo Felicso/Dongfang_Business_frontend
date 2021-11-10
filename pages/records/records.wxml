@@ -1,0 +1,17 @@
+<view id="records"><!--整个历史订单记录-->
+  <view id="goodTotal"><!--每条历史订单-->
+    <image id="good_img" src="{{cover}}"></image>
+    <view id="goodDetail">
+      <text id="good_name">商品名称：{{name}}</text>
+      <view id="goodCost">
+        <text class="good_detail_t">积分数量：{{point}}</text>
+        <text class="good_detail_t">现金价格：{{cash_total}}</text>
+      </view>
+      <text class="good_detail_t" style="margin-top:5rpx;">扫码日期：{{delivery_at}}</text>
+    </view>
+  </view>
+</view>
+<view id="getMore">
+  <text id="get_more_t">滑到底加载更多</text>
+</view>
+

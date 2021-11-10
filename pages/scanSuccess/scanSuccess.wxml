@@ -1,0 +1,11 @@
+<view id="scanSuccess">
+  <!--这里放什么icon？物品？兑换成功？-->
+  <image src="/images/scan_success.png" id="successImg"></image>
+  <text id="success_text">兑换成功!</text>
+  <text id="order_name">{{order.name}}</text>
+  <view id="orderDetail">
+    <text class="order_cost">{{order.point}}积分</text>
+    <text class="order_cost">{{order.cash_total}}元</text>
+  </view>
+  
+</view>

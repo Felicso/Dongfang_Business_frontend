@@ -1,0 +1,8 @@
+<view id="index">
+  <button id="scan"  bindtap="scanCode">
+    <text id="scan_t" style="position: relative; left: 0rpx; top: -2rpx">扫码器</text>
+  </button>
+  <button id="records">
+    <navigator url="/pages/records/records" id="records_t">历史订单</navigator>
+  </button>
+</view>
