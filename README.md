@@ -16,3 +16,5 @@ records：历史订单页面；数据结构不太会弄，滑动加载更多的�
 js除了调用扫一扫外啥都没做
 
 登录注册页面参考https://blog.csdn.net/fang6363938/article/details/103978325
+
+dongfang_frontend是clone下来的，没跑成，可忽略
